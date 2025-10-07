@@ -196,17 +196,17 @@ import statsmodels.api as sm
 import matplotlib.pyplot as plt
 sm.qqplot(df["Moderate Negative Skew"],line='45')
 plt.show()
-
 ```
 
-<img width="951" height="563" alt="{60AF097C-4AC7-4576-A442-10AE7C8E2D0E}" src="https://github.com/user-attachments/assets/265a9aa2-a923-453f-9592-4a615caef213" />
+<img width="962" height="567" alt="{9C23C884-8732-43C8-BEDF-B6E523BFD9B9}" src="https://github.com/user-attachments/assets/52cbf8a0-acc3-43f8-94ae-cdd9a032ba36" />
 
 ```python
 sm.qqplot(np.reciprocal(df["Moderate Negative Skew"]),line='45')
 plt.show()
 ```
 
-<img width="920" height="544" alt="{2163B69F-472C-4CFD-9A22-95C62746133D}" src="https://github.com/user-attachments/assets/12d4dbd2-710f-4855-9f8a-dde71a3afc9f" />
+<img width="985" height="579" alt="{F9D99605-70C3-4331-A459-69EBBA3C629C}" src="https://github.com/user-attachments/assets/e47ba87a-d3fb-4252-87be-ee24ed16c395" />
+
 
 ```python
 from sklearn.preprocessing import QuantileTransformer
@@ -216,7 +216,8 @@ sm.qqplot(df["Moderate Negative Skew"],line='45')
 plt.show()
 ```
 
-<img width="1062" height="551" alt="{A41709BC-367C-4574-B438-DA18F2617DAF}" src="https://github.com/user-attachments/assets/7f7fb361-80bf-44d7-9c2b-16fb5f36afa5" />
+<img width="999" height="576" alt="{8EAD805D-8BA3-44EE-A726-45547C00C2A7}" src="https://github.com/user-attachments/assets/98a5fab0-c5b1-48ad-847a-cc1fa26c2e92" />
+
 
 ```python
 df["Highly Negative Skew_1"]=qt.fit_transform(df[["Highly Negative Skew"]])
@@ -224,14 +225,16 @@ sm.qqplot(df["Highly Negative Skew"],line='45')
 plt.show()
 ```
 
-<img width="948" height="575" alt="{8416C41F-EB7E-434A-B2CA-472284F94765}" src="https://github.com/user-attachments/assets/62d15f5b-d734-4973-ae79-2216e9ee6333" />
+<img width="1343" height="573" alt="{ABC88E9E-9CAE-4F55-96A2-B3ED8252CAE9}" src="https://github.com/user-attachments/assets/82a09dd0-764f-4439-befb-08bd5f6364ce" />
+
 
 ```python
 dt=pd.read_csv("data.csv")
 dt
 ```
 
-<img width="1085" height="461" alt="{76842519-E545-47E7-892A-ACEB6CF885B0}" src="https://github.com/user-attachments/assets/0f06a1c5-b771-4619-8e38-8480578c6f58" />
+<img width="899" height="473" alt="image" src="https://github.com/user-attachments/assets/8bd8294a-a448-4469-990d-a27750454650" />
+
 
 ```python
 from sklearn.preprocessing import QuantileTransformer
@@ -241,14 +244,16 @@ sm.qqplot(dt['Target'],line='45')
 plt.show()
 ```
 
-<img width="1705" height="590" alt="{5E8D12E7-1AF8-49E0-A581-B064A0856652}" src="https://github.com/user-attachments/assets/5b6ac2d0-2c0b-4c5e-8c66-5d9054d0735f" />
+<img width="1406" height="597" alt="{FCEED6A2-801D-4D36-8F80-8D96A247AE7C}" src="https://github.com/user-attachments/assets/84b8ab23-5003-4eef-bb80-715edc2e9bb1" />
+
 
 ```python
 sm.qqplot(df["Highly Negative Skew_1"],line='45')
 plt.show()
 ```
 
-<img width="1092" height="551" alt="{0950DE37-C237-4C40-B4E5-8B7667D1BE12}" src="https://github.com/user-attachments/assets/5518517b-6b7f-43fa-b5e8-a36330b65073" />
+<img width="1163" height="557" alt="{09789A98-17EE-47A8-BDDC-7DAE3BADB2DD}" src="https://github.com/user-attachments/assets/46174a67-02c0-4c8a-914c-9975fc45691b" />
+
 
 # RESULT:
 Thus the given data, Feature Encoding, Transformation process and save the data to a file was performed successf
