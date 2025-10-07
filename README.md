@@ -88,11 +88,6 @@ pip install --upgrade category_encoders
 
 <img width="1771" height="319" alt="{D088B71E-B13D-4433-8346-2A83788D2BCB}" src="https://github.com/user-attachments/assets/5f88a867-980a-4674-9dec-2be112ab7a0f" />
 
-```python
-pip list
-```
-
-<img width="1751" height="653" alt="{7F52E6CD-1D9E-49EE-B394-725155631052}" src="https://github.com/user-attachments/assets/89952d55-14fe-4178-b780-cf37834bbd34" />
 
 ```python
 from category_encoders import BinaryEncoder
